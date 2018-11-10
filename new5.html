@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Расчёт площади прямоугольника</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<div style="padding:10%;">
+
+		<h1>Расчёт площади прямоугольника</h1>
+		
+	<br>Введите длину прямоугольника <input type="text" name="t1" size="10"></br>
+
+    <br>Введите ширину прямоугольника <input type="text" name="t2" size="10"></br>
+
+   
+		<input id=""rectangle" square="0" /> &nbsp;
+		<a id="bttn" href="#">Рассчитать</a>
+
+	<br /> Результат: <strong id="result"></strong>
+
+	</div>
+	
+	<script src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		
+		
+		$('#bttn').click(function(){
+			
+			var a; var b;
+			
+			 S = a * b;
+
+			var str = '' + S;
+
+			$('#result').html(str);
+			
+			//alert('Площадь прямоугольника: ' + S);
+			
+			return false;
+			
+		});
+		
+		
+		
+		
+		
+		
+	</script>
+	
+</body> 
+</html>
